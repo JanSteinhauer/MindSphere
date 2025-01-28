@@ -10,8 +10,8 @@ import SwiftUI
 @main
 struct MindSphereApp: App {
     var body: some Scene {
-        WindowGroup {
+        ImmersiveSpace {
             ContentView()
-        }.windowStyle(.volumetric)
+        }
     }
 }
