@@ -13,6 +13,7 @@
 		EB17F4322D483629000F8B03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB17F4312D483629000F8B03 /* Assets.xcassets */; };
 		EB17F4352D483629000F8B03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB17F4342D483629000F8B03 /* Preview Assets.xcassets */; };
 		EB17F4402D48362B000F8B03 /* MindSphereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB17F43F2D48362B000F8B03 /* MindSphereTests.swift */; };
+		EB2C63422D498FD100A9EB2C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2C63412D498FD100A9EB2C /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		EB17F4362D483629000F8B03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB17F43B2D48362B000F8B03 /* MindSphereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindSphereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB17F43F2D48362B000F8B03 /* MindSphereTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindSphereTests.swift; sourceTree = "<group>"; };
+		EB2C63412D498FD100A9EB2C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			children = (
 				EB17F42D2D483627000F8B03 /* MindSphereApp.swift */,
 				EB17F42F2D483627000F8B03 /* ContentView.swift */,
+				EB2C63412D498FD100A9EB2C /* DetailView.swift */,
 				EB17F4312D483629000F8B03 /* Assets.xcassets */,
 				EB17F4362D483629000F8B03 /* Info.plist */,
 				EB17F4332D483629000F8B03 /* Preview Content */,
@@ -215,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB17F4302D483627000F8B03 /* ContentView.swift in Sources */,
+				EB2C63422D498FD100A9EB2C /* DetailView.swift in Sources */,
 				EB17F42E2D483627000F8B03 /* MindSphereApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

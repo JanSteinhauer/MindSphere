@@ -13,5 +13,9 @@ struct MindSphereApp: App {
         ImmersiveSpace {
             ContentView()
         }
+        
+        WindowGroup(id: ImmersiveID.detailViewId, for: String.self) { value in
+            DetailView(title: value.wrappedValue!)
+        }
     }
 }
